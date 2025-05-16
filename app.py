@@ -5,7 +5,7 @@ import ast
 # charger le fichier csv contenant les regles d'association
 @st.cache_data
 def load_rules():
-    rules = pd.read_csv("C:/Users/DELL/Desktop/TP_FP_GROWTH/association_rules.csv")
+    rules = pd.read_csv("association_rules.csv")
 
 
     ## Transformation des chaines en liste
